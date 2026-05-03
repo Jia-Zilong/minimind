@@ -1,0 +1,27 @@
+# 虚拟环境
+venv/
+
+# 模型输出文件
+out/
+
+# 模型权重文件
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.pt
+
+# 数据集文件
+dataset/*.jsonl
+*.jsonl
+
+# IDE 配置文件
+.idea/
+.vscode/
+
+# 临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.log
+logs/
